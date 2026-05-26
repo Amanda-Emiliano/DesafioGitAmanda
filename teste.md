@@ -2,7 +2,7 @@
 **📖Manual  da calculadora**
 ------------------------------------------------------------------------------------------------
 
-## Sumário
+## 🧾 Sumário
 [Manual do Usuário - Sequência de Cubos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-cubos)
 
 [Manual do Usuário - Sequência de Números Primos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-primos)
