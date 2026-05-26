@@ -51,7 +51,7 @@ Digite "s" para sim
 
 Digite "n" para não   
 
-❗Importante: digite as letras em minúsculo.  
+Importante❗: digite as letras em minúsculo.  
 
 ----
 
