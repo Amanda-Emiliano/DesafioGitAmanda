@@ -1,4 +1,4 @@
-
+<img width="1070" height="700" alt="image" src="https://github.com/user-attachments/assets/2f842453-2b83-4076-986a-73a435b55d20" />
 **📖Manual  da calculadora**
 ------------------------------------------------------------------------------------------------
 
@@ -21,11 +21,11 @@
 
 ### 🔢Manual do Usuário – Sequência de Cubos
 
-📌Sequência de Cubos é uma sequência numérica onde cada termo é a terceira potência de um número. 
+Sequência de Cubos é uma sequência numérica onde cada termo é a terceira potência de um número. 
 
-### 1º Passo: Digite o número inicial da sequência.  
+### 📌1º Passo: Digite o número inicial da sequência.  
 
-### 2º Passo: Digite o número final da sequência.  
+### 📌2º Passo: Digite o número final da sequência.  
 
 O programa irá calcular e exibir o cubo de todos os números dentro do intervalo informado, incluindo o número inicial e o número final.  
 
