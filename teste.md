@@ -21,7 +21,7 @@
 
 ### 🔢Manual do Usuário – Sequência de Cubos
 
-Sequência de Cubos é uma sequência numérica onde cada termo é a terceira potência de um número. 
+📌Sequência de Cubos é uma sequência numérica onde cada termo é a terceira potência de um número. 
 
 ### 1º Passo: Digite o número inicial da sequência.  
 
