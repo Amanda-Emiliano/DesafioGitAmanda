@@ -1,131 +1,278 @@
 
-<div align="center">
+**Manual  da calculadora**
+------------------------------------------------------------------------------------------------
 
-## API-26-01 - **Calculadora de Sequências Lógicas**
+## Sumário
+[Manual do Usuário - Sequência de Cubos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-cubos)
+
+[Manual do Usuário - Sequência de Números Primos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-primos)
+
+[Manual do Usuário - Sequência de Tribonacci](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-tribonacci)
+
+[Manual do Usuário - Sequência de Números Triangulares](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-triangulares)
+
+[Manual do Usuário - Sequência de Fibonacci](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fibonacci)
+
+[Manual do Usuário - Sequência Alternada](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-alternada)
+
+[Manual do Usuário - Sequência de Fatorial](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fatorial)
+
+----
+
+### Manual do Usuário – Sequência de Cubos
+
+Sequência de Cubos é uma sequência numérica onde cada termo é a terceira potência de um número. 
+
+1º Passo: Digite o número inicial da sequência.  
+
+2º Passo: Digite o número final da sequência.  
+
+O programa irá calcular e exibir o cubo de todos os números dentro do intervalo informado, incluindo o número inicial e o número final.  
+
+Exemplo de uso:  
+
+Número inicial: 5   
+
+Número final: 8   
+
+O programa mostrará:  
+
+5³ = 125   
+
+6³ = 216   
+
+7³ = 343   
+
+8³ = 512   
+
+3º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+
+----
+
+### Manual do Usuário – Sequência de Números Primos
+
+ 
+
+Um número primo é qualquer número natural maior que 1 que pode ser dividido apenas por 1 e por ele próprio. Essa sequência exibe os n primeiros termos que cumprem essas regras. 
 
   
-  <img width="337" height="305" alt="image" src="https://github.com/user-attachments/assets/d446b835-299c-4777-a2bf-c9d114403136" />
- 
+
+Como usar: 
+
+1° Passo: selecione a opção 2 no menu da calculadora 
+
+2° Passo: digite quantos elementos terá a sequência, dentro do limite estipulado (de 1 a 250) 
+
   
-  <h2>Equipe Lovelace</h2>
 
-**Projeto Acadêmico | API 1° semestre 2026 | Fatec** <br>
-**Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal**
+Exemplo de uso: 
+
+Quantos elementos terá a sequência? 
+
+(Escolha um valor entre 1 e 250) 
+
+5 
+
   
-</div>
+
+Sequência gerada: 
+
+ 1° número primo: 2 
+
+ 2° número primo: 3 
+
+ 3° número primo: 5 
+
+ 4° número primo: 7 
+
+ 5° número primo: 11 
+
+ 
+
+3º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+
 
 ----
 
-## 🚀 Desafio
+### Manual do Usuário – Sequência de Tribonacci
 
-Desenvolver uma calculadora que realize funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendidos no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
+ 
 
-----
+A sequência de Tribonacci é uma série numérica em que cada termo é obtido pela soma dos três termos anteriores. Ao acessar a calculadora, o usuário informa quantos termos deseja gerar, e o algoritmo constrói a sequência a partir dos três valores iniciais predefinidos (0, 0 e 1). 
 
-## 📋 Backlog do Produto
+Exemplo: 
 
-| Rank | Prioridade | User Story | Sprint | Status |
-|:------:|:------------:|------------|:--------:|:--------:|
-| 1 | Alta | Como usuário da calculadora, quero visualizar um menu no programa para escolher qual calculo desejo realizar. | 1 | ✅ | 
-| 2 | Alta | Como usuário da calculadora, quero executar apenas um cálculo por vez para facilitar o uso.| 1 | ✅ |
-| 3 | Alta | Como usuário da calculadora, quero continuar executando cálculos até decidir encerrar o programa. | 1 | ✅ |
-| 4 | Alta | Como usuário da calculadora, quero ter uma função que calcule a sequência de de cubos para obter o resultado de forma eficiente e prática. | 1 | ✅ |
-| 5 | Alta | Como usuário da calculadora, quero ter uma função que liste a sequência de números primos para obter o resultado de forma eficiente e prática. | 1 | ✅ |
-| 6 | Alta| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de tribonacci para obter o resultado de forma eficiente e prática. | 1 | ✅ |
-| 7 | Média| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de Fibonacci para obter o resultado de forma eficiente e prática. | 2 | ✅ |
-| 8 | Média| Como usuário da calculadora, quero ter uma função que calcule o número triangular de acordo com a quantidade de termos eschilda de forma eficiente e prática. | 2 | ✅ |
-| 9 | Média| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência fatorial para obter o resultado de forma eficiente e prática.  | 2 | ✅ |
-| 10 | Média| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência alternada para obter o resultado de forma eficiente e prática.  | 2 | ✅ |
-| 11 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de quadrados perfeitos para obter o resultado de forma eficiente e prática.  | 3 | 🔲 |
-| 12 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de geométrica para obter o resultado de forma eficiente e prática.  | 3 | 🔲 |
-| 13 | Baixa | Como usuário da calculadora, quero uma interface com cores harmoniosas para ter uma experiência mais agradável durante o uso. | 3 | 🔲 |
+Número de termos = 5 
+Termo 1º: 0 
+Termo 2º: 0 
+Termo 3º: 1 
+Termo 4º: 1 
+Termo 5º: 2 
 
+É possível calcular do 4º ao 39º termo. Esse limite foi definido para evitar estouro do tipo numérico utilizado, garantindo a precisão dos resultados. 
 
-## 📅 Cronograma de Sprints <a id="sprint"></a>
+Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
 
-<div align="center">
+Digite "s" para sim   
 
-| Sprint          |    Período    | Documentação                                     |
-| :-------------: | :-----------: | :----------------------------------------------: |
-|  **SPRINT 1** | 16/03 - 05/04 | [Ver Sprint 1](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint1.md) |
-|  **SPRINT 2** | 13/04 - 03/05 | [Ver Sprint 2](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint2.md) |
-|  **SPRINT 3** | 11/05 - 31/05 | [Ver Sprint 3](Sprints/Sprint3.md)
+Digite "n" para não   
 
-</div>
+Importante: digite as letras em minúsculo.  
 
 ----
 
-### 💻 Tecnologias
+### Manual do Usuário – Sequência de Números Triangulares
 
--   **Versionador:** Github
--   **Ferramenta de gestão:** Jira
--   **Linguagem:** Portugol
--   **Plataforma:** VisuAlg 3.0
--   **Botão:** [Shields.io](https://shields.io/)
+ 
+
+ 
+
+Os números triangulares são representações geométricas que formam triângulos e são fundamentais na matemática cuja fórmula é representada por T(n) = n(n + 1)/2  
+
+1° passo: selecione a opção 4 no menu da calculadora 
+
+2º Passo: Digite a posição que você deseja calcular 
+
+O programa irá calcular e exibir o resultado da posição que você escolheu  
+
+Exemplo de uso:  
+
+Posição 6° da sequência  
+
+O programa mostrará:  
+
+O número da posição 6 é: 21 
+
+3º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
 
 ----
+
+### Manual do Usuário – Sequência de Fibonacci
+
+ 
+
+A sequência de Fibonacci é uma série numérica em que cada termo é a soma dos dois anteriores. No algoritmo, o usuário informa a quantidade de termos desejada, e o programa gera a sequência a partir dos dois primeiros valores predefinidos (0 e 1).  
+
+Exemplo: 
+
+Número de Termos = 5 
+Termo 1º: 0 
+Termo 2º: 1 
+Termo 3º: 1 
+Termo 4º: 2 
+Termo 5º: 3 
+
+É possível calcular termos até a 47ª posição. Esse limite existe para evitar estouro de memória no programa utilizado (VisualG), garantindo a precisão dos valores. 
+
+Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+
+----
+
+### Manual do Usuário – Sequência de Alternada
+
+ 
+
+Sequência alternada é uma sucessão de números onde o sinal de cada termo inverte em relação ao anterior (positivo, negativo, positivo...). Nesta calculadora, quando o primeiro termo é positivo, ela é calculada a partir da fórmula ((-1) ^ (n+1)) * (n^y), onde n representa a posição do termo e y se refere a grandeza com a qual os termos crescem. Para formar uma sequência na qual o primeiro termo é negativo, a fórmula é ((-1) ^ n) * (n^y), mantendo as definições de n e y. 
+
   
-### ❓ Como executar, usar e testar o produto
 
-Para executar a calculadora, siga os passos abaixo:
+Como calcular a sequência? 
 
-1.  Certifique-se de ter o **VisuAlg 3.0** instalado em seu computador.
-2.  Utilize o seguinte código para usar a calculadora [Acesse aqui](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/CalculadoraLovelace.ALG) 
-3.  Abra o arquivo no VisualG.
-4.  Pressione a tecla **F9** do seu teclado ou clique no ícone de "Executar" no VisuAlg 3.0, para iniciar o programa.
-5.  Siga as instruções apresentadas no manual do usuário.
+1° passo: digite um número inteiro maior que 0 para definir quantos termos terá a sequência e pressione Enter. 
 
-----
+2° passo: escolha qual será o sinal do seu primeiro termo, digite "+" para que sua sequência comece com um termo positivo, ou "-" para o primeiro termo negativo e pressione Enter. 
 
-☑️ **Definition of Ready (DoR)** 
+3° passo: Defina a ordem de grandeza digitando um número inteiro positivo e pressione Enter. 
 
--   Não ter dependência de outra tarefa 
- 
--   User Story detalhada e bem compreendida pela equipe com critérios de aceitação
- 
--   Distribuir cada story ao seu respectivo desenvolvedor
+Depois de responder essas questões, a sequência será gerada. 
 
----- 
-
-☑️ **Definition of Done (DoD)**
-
--   Testado pelo desenvolvedor 
- 
--   Testado por outro integrante além do desenvolvedor
- 
--   Documentação do GitHub atualizada
- 
--   Merge na main realizado
-
-----
-
-**📄 Manual de Instalação do VisuAlg 3.0**
-
-Para acessar o passo a Passo de Instalação e Execução [Clique aqui!](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Manual/Manual%20de%20Instalação%20VisuAlg.md)
-
-----
-
-**📄 Manual da Calculadora**
-
-Para o Manual da Calculadora [Clique aqui!](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Manual/Manual%20da%20Calculadora.md)
-
-----
-
-## 👩‍💻 Equipe
-
-<div align="center">
   
-| Membro | Função | Github | LinkedIn |
-|:----:|:----:|:----:|:----:|
-| <img src="https://github.com/user-attachments/assets/80f825c4-04b4-4bda-845c-e6205376506f" width="40" style="border-radius:50%" align="left"> Lívia Dias | Product Owner | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/lili15-star) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/livia-dias-b2977a344) |
-| <img src="https://github.com/user-attachments/assets/6eb49879-1f88-460c-9303-5f15220ffb4e" width="40" style="border-radius:50%" align="left"> Larissa de Paula | Scrum Master | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/larijuno) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/lari-juno/) |
-| <img src="https://github.com/user-attachments/assets/c03a0db3-2613-445a-a0ef-cc28e19a8ce0" width="40" style="border-radius:50%" align="left"> Allana Natasha | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/AllanaNatasha) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/allana-natasha-gomes?utm_source=share_via&utm_content=profile&utm_medium=member_ios) |
-| <img src="https://github.com/user-attachments/assets/ac8b4afa-d858-4b2b-99c6-891b8a55f022" width="40" style="border-radius:50%" align="left"> Amanda Emiliano | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/Amanda-Emiliano) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/amanda-emiliano-0822b2200/) |
-| <img src="https://github.com/user-attachments/assets/31751891-4f80-4b70-a5f3-d25c4bffdd88" width="40" style="border-radius:50%" align="left"> Anderson Ilo | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/AndersonIlo) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/anderson-ilo-212b18182/) |
-| <img src="https://github.com/user-attachments/assets/11dd9fc5-c8dc-41cf-a0f7-704362f8465a" width="40" style="border-radius:50%" align="left"> Vitória Souza | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/cs-vitoria) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-souza-2a9a45391/) |
-| <img src="https://github.com/user-attachments/assets/788c2260-be47-4bb6-8ef9-a5bfd5d9edab" width="40" style="border-radius:50%" align="left"> Vitória Vieira Alves | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/Vitoria2304) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
 
-</div>
+Exemplo: 
+
+Quantos elementos terá a sequência? 5 
+
+O primeiro termo da sequência será positivo ou negativo? + 
+
+Qual será a ordem de grandeza da sequência? 2 
+
+O resultado exibido será: 
+
+1° termo: 1 
+
+2° termo: -4 
+
+3° termo: 9 
+
+4° termo: -16 
+
+5° termo: 25 
 
 
 
+Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+
+----
+
+### Manual do Usuário – Sequência de fatorial
+
+ 
+
+Sequência de fatorial é a multiplicação de um número por todos os anteriores a ele até o número 1.  
+
+1° Passo: Digite um número, o programa vai calcular e mostrar o passo a passo do fatorial desse número.  
+
+Exemplo de uso: Número: 4  
+
+1 x 4 = 4  
+
+ 4 x 3 = 12 
+
+12 x 2 = 24  
+
+24 x 1 = 24 
+
+Resultado: 4! = 24  
+
+Que é basicamente 4! -> 4 x 3 x 2 x 1=24 
+
+ 
+
+2° Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+ 
