@@ -1,5 +1,5 @@
 
-**Manual  da calculadora**
+**📖Manual  da calculadora**
 ------------------------------------------------------------------------------------------------
 
 ## Sumário
@@ -19,13 +19,13 @@
 
 ----
 
-### Manual do Usuário – Sequência de Cubos
+### 🔢Manual do Usuário – Sequência de Cubos
 
 Sequência de Cubos é uma sequência numérica onde cada termo é a terceira potência de um número. 
 
-1º Passo: Digite o número inicial da sequência.  
+### 1º Passo: Digite o número inicial da sequência.  
 
-2º Passo: Digite o número final da sequência.  
+### 2º Passo: Digite o número final da sequência.  
 
 O programa irá calcular e exibir o cubo de todos os números dentro do intervalo informado, incluindo o número inicial e o número final.  
 
@@ -45,17 +45,17 @@ O programa mostrará:
 
 8³ = 512   
 
-3º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+### 3º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
 
 Digite "s" para sim   
 
 Digite "n" para não   
 
-Importante: digite as letras em minúsculo.  
+❗Importante: digite as letras em minúsculo.  
 
 ----
 
-### Manual do Usuário – Sequência de Números Primos
+### 🔢Manual do Usuário – Sequência de Números Primos
 
  
 
@@ -101,12 +101,12 @@ Digite "s" para sim
 
 Digite "n" para não   
 
-Importante: digite as letras em minúsculo.  
+❗Importante: digite as letras em minúsculo.  
 
 
 ----
 
-### Manual do Usuário – Sequência de Tribonacci
+### 🔢Manual do Usuário – Sequência de Tribonacci
 
  
 
@@ -129,11 +129,11 @@ Digite "s" para sim
 
 Digite "n" para não   
 
-Importante: digite as letras em minúsculo.  
+❗Importante: digite as letras em minúsculo.  
 
 ----
 
-### Manual do Usuário – Sequência de Números Triangulares
+### 🔢Manual do Usuário – Sequência de Números Triangulares
 
  
 
@@ -161,11 +161,11 @@ Digite "s" para sim
 
 Digite "n" para não   
 
-Importante: digite as letras em minúsculo.  
+❗Importante: digite as letras em minúsculo.  
 
 ----
 
-### Manual do Usuário – Sequência de Fibonacci
+### 🔢Manual do Usuário – Sequência de Fibonacci
 
  
 
@@ -188,11 +188,11 @@ Digite "s" para sim
 
 Digite "n" para não   
 
-Importante: digite as letras em minúsculo.  
+❗Importante: digite as letras em minúsculo.  
 
 ----
 
-### Manual do Usuário – Sequência de Alternada
+### 🔢Manual do Usuário – Sequência de Alternada
 
  
 
@@ -244,7 +244,7 @@ Importante: digite as letras em minúsculo.
 
 ----
 
-### Manual do Usuário – Sequência de fatorial
+### 🔢Manual do Usuário – Sequência de fatorial
 
  
 
