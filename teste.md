@@ -2,7 +2,7 @@
 **📖Manual  da calculadora**
 ------------------------------------------------------------------------------------------------
 
-## 🧾 Sumário
+## 🔹 Sumário
 [Manual do Usuário - Sequência de Cubos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-cubos)
 
 [Manual do Usuário - Sequência de Números Primos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-primos)
@@ -29,7 +29,7 @@ Sequência de Cubos é uma sequência numérica onde cada termo é a terceira po
 
 O programa irá calcular e exibir o cubo de todos os números dentro do intervalo informado, incluindo o número inicial e o número final.  
 
-Exemplo de uso:  
+### 📍Exemplo de uso:  
 
 Número inicial: 5   
 
