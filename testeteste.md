@@ -239,8 +239,7 @@ Importante❗: digite as letras em minúsculo.
 Sequência de fatorial é a multiplicação de um número por todos os anteriores a ele até o número 1.  
 
 ### 📌1º Passo: Digite um número, o programa vai calcular e mostrar o passo a passo do fatorial desse número.  
-
-### 📌2º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+ 
 
 ### 📍Exemplo de uso:
 
@@ -257,6 +256,8 @@ Número: 4
 Resultado: 4! = 24  
 
 Que é basicamente 4! -> 4 x 3 x 2 x 1=24 
+
+### 📌2º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo. 
 
 Digite "s" para sim   
 
