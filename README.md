@@ -21,7 +21,7 @@ Desenvolvimento de um sistema de Comunicação Aumentativa e Alternativa (CAA/AA
 
 <div align="center">
 
-| Entrega         |    Data final  |
+| Entrega         |    Período |
 | :-------------: | :-----------:| 
 |  **ENTREGA 1** | 17/08 - 02/10 | 
 
@@ -35,7 +35,10 @@ Desenvolvimento de um sistema de Comunicação Aumentativa e Alternativa (CAA/AA
 -   **Versionador:** Github
 -   **Ferramenta de gestão:** GitHub
 -   **Linguagem:** Java
--   **Plataforma:** IntelliJ IDEA 
+-   **IDE:** IntelliJ IDEA
+-   **Plataforma:** Ollama
+-   **Modelo de IA:** Gemma 3
+-   
 ----
   
 ### ❓ Como executar, usar e testar o produto
