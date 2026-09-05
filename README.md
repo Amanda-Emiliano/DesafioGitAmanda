@@ -72,6 +72,8 @@ V - Vitória Alves
 
 A - Amanda Emiliano
 
+----
+
 <div align="center">
   
 | Membro | Função | Github | LinkedIn |
