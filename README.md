@@ -30,7 +30,7 @@ Desenvolvimento de um sistema de Comunicação Aumentativa e Alternativa (CAA/AA
 
 ----
 
-### 💻 Tecnologias
+## 💻 Tecnologias
 
 -   **Versionador:** Github
 -   **Ferramenta de gestão:** GitHub
