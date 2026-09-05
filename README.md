@@ -2,7 +2,6 @@
 
 
 **Engenharia de Software** 
-
 **Projeto Acadêmico |2° semestre 2026 | Fatec** <br>
 **Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal**
   
