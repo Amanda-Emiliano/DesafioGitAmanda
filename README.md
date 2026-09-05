@@ -97,6 +97,7 @@ Para o Manual do Sistema de AAC [Clique aqui!](https://github.com/Equipe-Lovelac
 -   https://huggingface.co/tardellirs/aac-board-generator-770m-ptbr-GGUF
 -   tardellirs/aac-pictogram-retriever-ptbr · Hugging Face
 -   tardellirs/aac-board-generator-770m-ptbr · Hugging Face
+-   https://mvnrepository.com/artifact/io.github.ollama4j/ollama4j/1.1.6
 
 ----
 
