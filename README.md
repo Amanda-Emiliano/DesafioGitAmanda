@@ -62,15 +62,15 @@ Para o Manual do Sistema de AAC [Clique aqui!](https://github.com/Equipe-Lovelac
 
 ----
 
-## 👩‍💻 Equipe
+## 👥 Equipe
 
-J - Juno (Larissa de Paula)
+**J** - Juno (Larissa de Paula)
 
-A - Anderson Ilo
+**A** - Anderson Ilo
 
-V - Vitória Alves
+**V** - Vitória Alves
 
-A - Amanda Emiliano
+**A** - Amanda Emiliano
 
 ----
 
