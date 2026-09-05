@@ -38,7 +38,7 @@ Desenvolvimento de um sistema de Comunicação Aumentativa e Alternativa (CAA/AA
 -   **IDE:** IntelliJ IDEA
 -   **Plataforma:** Ollama
 -   **Modelo de IA:** Gemma 3
--   
+  
 ----
   
 ### ❓ Como executar, usar e testar o produto
