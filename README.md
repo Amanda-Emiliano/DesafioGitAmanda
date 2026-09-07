@@ -32,12 +32,12 @@ Desenvolvimento de um sistema de Comunicação Aumentativa e Alternativa (CAA/AA
 
 ## 💻 Tecnologias
 
--   **Versionador:** Github
+-   **Versionador:** GitHub
 -   **Ferramenta de gestão:** GitHub
 -   **Linguagem:** Java
 -   **IDE:** IntelliJ IDEA
 -   **Plataforma:** Ollama
--   **Modelo de IA:** Gemma 3
+-   **Modelo de IA:** Gemma3:1b
   
 ----
   
