@@ -61,7 +61,7 @@ Para acessar o passo a Passo de Instalação e Execução [Clique aqui](https://
 
 **📄 Manual de uso do Sistema de AAC**
 
-Para o Manual do Sistema de AAC [Clique aqui!](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Manual/Manual%20da%20Calculadora.md)
+Para o Manual do Sistema de AAC [Clique aqui!]
 
 ----
 
