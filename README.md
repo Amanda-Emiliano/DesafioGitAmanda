@@ -53,13 +53,13 @@ Para executar o programa, siga os passos abaixo:
 
 ----
 
-**📄 Manual de Instalação do IntelliJ IDEA**
+**📑 Manual de Instalação do IntelliJ IDEA**
 
 Para acessar o passo a Passo de Instalação e Execução [Clique aqui](https://github.com/larijuno/Grupo_JAVA/blob/7ab74b9f2713163626e2468b0f1db64de588703c/Manual/Manual%20de%20Instala%C3%A7%C3%A3o%20do%20IntelliJ%20IDEA.md)
 
 ----
 
-**📄 Manual de uso do Sistema de AAC**
+**📑 Manual de uso do Sistema de AAC**
 
 Para o Manual do Sistema de AAC [Clique aqui!]
 
