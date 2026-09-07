@@ -49,7 +49,7 @@ Para executar o programa, siga os passos abaixo:
 2.  Utilize o seguinte código para usar o Sistema de AAC [Clique aqui](https://github.com/larijuno/Grupo_JAVA/blob/7ab74b9f2713163626e2468b0f1db64de588703c/Ollama%20/Main)
 3.  Abra o arquivo no IntelliJ.
 4.  Pressione a tecla **Shift + F10** do seu teclado ou clique no ícone de "▶️" no IntelliJ, para iniciar o programa.
-5.  Siga as instruções apresentadas no manual do usuário.
+5.  Siga as instruções apresentadas no manual de uso do Sistema.
 
 ----
 
@@ -59,7 +59,7 @@ Para acessar o passo a Passo de Instalação e Execução [Clique aqui](https://
 
 ----
 
-**📄 Manual do Sistema de AAC**
+**📄 Manual de uso do Sistema de AAC**
 
 Para o Manual do Sistema de AAC [Clique aqui!](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Manual/Manual%20da%20Calculadora.md)
 
