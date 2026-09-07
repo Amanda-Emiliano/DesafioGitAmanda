@@ -46,7 +46,7 @@ Desenvolvimento de um sistema de Comunicação Aumentativa e Alternativa (CAA/AA
 Para executar o programa, siga os passos abaixo:
 
 1.  Certifique-se de ter o **IntelliJ** instalado em seu computador.
-2.  Utilize o seguinte código para usar o Sistema de AAC [Clique aqui](https://github.com/larijuno/Grupo_JAVA/blob/7ab74b9f2713163626e2468b0f1db64de588703c/Ollama%20/Main)
+2.  Utilize o seguinte código para usar o Sistema de AAC [Clique aqui!](https://github.com/larijuno/Grupo_JAVA/blob/7ab74b9f2713163626e2468b0f1db64de588703c/Ollama%20/Main)
 3.  Abra o arquivo no IntelliJ.
 4.  Pressione a tecla **Shift + F10** do seu teclado ou clique no ícone de "▶️" no IntelliJ, para iniciar o programa.
 5.  Siga as instruções apresentadas no manual de uso do Sistema.
@@ -55,7 +55,7 @@ Para executar o programa, siga os passos abaixo:
 
 **📑 Manual de Instalação do IntelliJ IDEA**
 
-Para acessar o passo a Passo de Instalação e Execução [Clique aqui](https://github.com/larijuno/Grupo_JAVA/blob/7ab74b9f2713163626e2468b0f1db64de588703c/Manual/Manual%20de%20Instala%C3%A7%C3%A3o%20do%20IntelliJ%20IDEA.md)
+Para acessar o passo a Passo de Instalação e Execução [Clique aqui!](https://github.com/larijuno/Grupo_JAVA/blob/7ab74b9f2713163626e2468b0f1db64de588703c/Manual/Manual%20de%20Instala%C3%A7%C3%A3o%20do%20IntelliJ%20IDEA.md)
 
 ----
 
