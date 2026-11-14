@@ -64,8 +64,8 @@ Os dois modelos têm que aparecer na lista!
 ## 📌5. Rodar
 
 1. Confirme que o **Ollama está aberto**.
-2. Abra `src/main/java/org/example/Main.java`.
-3. Clique na seta verde ao lado de `public class Main` > **Run 'Main.main()'**.
+2. Abra `src/main/java/org/example/App.java`.
+3. Clique na seta verde ao lado de `public class App` > **Run ▷**.
 
 > **IMPORTANTE:** rode a classe `App`.
 
