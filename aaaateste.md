@@ -14,6 +14,8 @@ O programa monta **pranchas de comunicação alternativa (CAA)** com pictogramas
 6. [Como usar](#6-como-usar)
 7. [Créditos](#7-créditos)
 2.  Utilize o seguinte código para usar o Sistema de AAC [Clique aqui!](https://github.com/larijuno/Grupo_JAVA/blob/510fb47817e816e354acaee3a0b619bb8a031a9d/AAC%20-%20final/src/main/java/org/example/App.java)
+
+3.  Para o Manual do Sistema de AAC [Clique aqui!](https://github.com/larijuno/Grupo_JAVA/blob/510fb47817e816e354acaee3a0b619bb8a031a9d/Manual/Manual%20de%20Uso%20do%20Sistema%20de%20AAC.md)
 ---
 
 ## 📌1. O que instalar
