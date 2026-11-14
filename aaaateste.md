@@ -1,12 +1,8 @@
 # Manual de Uso do Sistema de AAC
 
-**Como rodar em outro PC e como usar**
+**💡Como rodar em outro PC e como usar?**
 
 O programa monta **pranchas de comunicação alternativa (CAA)** com pictogramas do [ARASAAC](https://arasaac.org) a partir de um tema. Depois de montada, a prancha pode ser **editada**, **impressa** ou **usada na tela**, com o computador **falando** as palavras ao clicar nos cartões.
-
-Ele usa uma IA local (Ollama) e a internet para buscar os pictogramas.
-
-> Não precisa instalar MySQL, ComfyUI nem placa de vídeo.
 
 ## Índice
 
@@ -18,32 +14,30 @@ Ele usa uma IA local (Ollama) e a internet para buscar os pictogramas.
 6. [Rodar](#6-rodar)
 7. [Como usar](#7-como-usar)
 8. [Onde ficam os arquivos](#8-onde-ficam-os-arquivos)
-9. [Problemas comuns](#9-problemas-comuns)
-10. [Créditos](#10-créditos)
+9. [Créditos](#10-créditos)
 
 ---
 
-## 1. O que instalar
+## 📌1. O que instalar
 
 | Item | Para quê | Onde baixar |
 |---|---|---|
-| **JDK 21 ou superior** | Rodar o programa | [adoptium.net](https://adoptium.net) (ou pelo IntelliJ, passo 4) |
-| **IntelliJ IDEA** | Abrir e rodar o projeto (a versão Community serve e já traz o Maven) | [jetbrains.com/idea/download](https://www.jetbrains.com/idea/download) |
+| **JDK 21 ou superior** | Rodar o programa | [adoptium.net](https://adoptium.net) |
+| **IntelliJ IDEA** | Abrir e rodar o projeto  | [jetbrains.com/idea/download](https://www.jetbrains.com/idea/download) |
 | **Ollama** | IA que roda no seu computador | [ollama.com/download](https://ollama.com/download) |
 | **Internet** | Buscar os pictogramas no ARASAAC | — |
-| **Scene Builder** *(opcional)* | Editar a tela visualmente | [gluonhq.com/products/scene-builder](https://gluonhq.com/products/scene-builder) |
 | **Voz em português** *(recomendado)* | O computador falar as palavras em português | Veja o [passo 7.6](#76-ouvir-a-prancha-o-computador-fala) |
 
 ---
 
-## 2. Instalar o Ollama
+## 📌2. Instalar o Ollama
 
 1. Baixe e instale o Ollama.
 2. Abra o Ollama. Ele fica com um ícone perto do relógio do Windows.
 
 ---
 
-## 3. Baixar os dois modelos de IA
+## 📌3. Baixar os dois modelos de IA
 
 Abra um terminal (cmd ou PowerShell) e rode os **dois** comandos (baixam uns 670 MB no total):
 
@@ -58,46 +52,30 @@ Para conferir, rode:
 ollama list
 ```
 
-Os dois modelos têm que aparecer na lista.
+Os dois modelos têm que aparecer na lista!
 
 ---
 
-## 4. Abrir o projeto no IntelliJ
+## 📌4. Abrir o projeto no IntelliJ
 
-1. Copie a pasta **Amanda_AAC** para o PC. Se quiser levar as pranchas já salvas, copie junto a pasta `pranchas`, que fica dentro dela.
-2. No IntelliJ: **File > Open** > selecione a pasta `Amanda_AAC` > **OK**.
-3. Se aparecer um aviso de que falta o JDK: **File > Project Structure > Project > SDK > Download JDK** > escolha a versão 21 ou superior > **Download**.
-
----
-
-## 5. Baixar as dependências
-
-1. Espere o IntelliJ terminar de carregar (barra de progresso no canto de baixo).
-2. Se aparecer o ícone do Maven com setas (**Load Maven Changes**), clique nele. É isso que baixa o JavaFX e o Jackson.
+1. Copie a pasta **AAC_final** para o PC. Se quiser levar as pranchas já salvas, copie junto a pasta `pranchas`, que fica dentro dela.
+2. No IntelliJ: **File > Open** > selecione a pasta `AAC_final` > **OK**.
 
 ---
 
-## 6. Rodar
+## 📌5. Rodar
 
 1. Confirme que o **Ollama está aberto**.
 2. Abra `src/main/java/org/example/Main.java`.
 3. Clique na seta verde ao lado de `public class Main` > **Run 'Main.main()'**.
 
-> **IMPORTANTE:** rode a classe `Main`, e não a classe `App`.
+> **IMPORTANTE:** rode a classe `App`.
 
-Pelo terminal, com o Maven instalado, também funciona:
-
-```
-mvn javafx:run
-```
-
----
-
-## 7. Como usar
+## 6. Como usar
 
 O programa tem **dois modos**, que se alternam no botão do topo:
 
-| Modo | Para quê | O que aparece |
+| Modo | Utilidade | O que aparece |
 |---|---|---|
 | **Modo: Editar** | Montar e arrumar a prancha | Remover (✕), trocar imagem, adicionar palavras, vocabulário básico |
 | **Modo: Usar** | Comunicar | Cartões que falam ao clicar e a barra da frase |
@@ -112,7 +90,7 @@ O botão mostra o modo atual e diz qual será o próximo: **"Modo: Editar (cliqu
 
 ### 7.2 Entender os cartões
 
-As **cores das bordas** seguem a chave de Fitzgerald:
+As **cores das bordas**
 
 | Cor | Tipo de palavra | Exemplos |
 |---|---|---|
@@ -123,8 +101,6 @@ As **cores das bordas** seguem a chave de Fitzgerald:
 | 🩷 Rosa | Social | SIM, NÃO, OLÁ, TCHAU, OBRIGADO |
 
 - No topo fica o **vocabulário básico** (cerca de 30 palavras, como EU, VOCÊ, QUERO, NÃO QUERO, MAIS, AJUDA, SIM, NÃO, ACABOU), que aparece em **todas** as pranchas.
-- Cartão com **"?"** e o aviso *sem pictograma*: o programa não achou imagem para a palavra. Dá para trocar ou remover.
-- Passe o mouse sobre um cartão para ver o **significado** do pictograma.
 
 ### 7.3 Editar a prancha (Modo: Editar)
 
@@ -133,7 +109,7 @@ As **cores das bordas** seguem a chave de Fitzgerald:
 - **Adicionar palavra:** inclui um item que a IA não sugeriu.
 - **Vocabulário básico:** também pode ser editado, e dá para restaurar o padrão original.
 
-Tudo é salvo automaticamente a cada mudança.
+Tudo é salvo automaticamente a cada mudança!
 
 ### 7.4 Usar a prancha para se comunicar (Modo: Usar)
 
@@ -149,8 +125,6 @@ Os botões da barra da frase:
 | **▶ Falar** | Fala a frase completa |
 | **⌫ Apagar última** | Tira a última palavra da frase |
 | **Limpar** | Esvazia a frase |
-
-Dica: clicar em um cartãozinho dentro da barra também tira essa palavra da frase.
 
 Ao voltar para o **Modo: Editar**, a frase é limpa automaticamente.
 
@@ -168,46 +142,13 @@ A fala **não usa áudio gravado nem internet**. O programa pede ao sistema do c
 | **Mac** | Comando `say`, com a voz "Luciana" (português do Brasil) |
 | **Linux** | Programa `espeak` em português do Brasil. Instale com `sudo apt install espeak` |
 
-**Importante no Windows:** o programa usa a **voz padrão** do Windows. Se ela for em inglês, as palavras saem com sotaque de inglês. Para ouvir em português, instale uma voz em português do Brasil nas configurações de idioma e fala do Windows (por exemplo, adicionando o idioma **Português (Brasil)** com o recurso de fala) e deixe-a como voz padrão.
-
-Se o computador **não tiver nenhuma voz**, o programa continua funcionando, mas fica sem som.
-
 ### 7.7 Imprimir
 
-1. Abra `pranchas\<tema>\prancha.html` no navegador.
-2. Use **Ctrl + P**.
-
-O fundo colorido some na impressão para economizar tinta, mas as cores dos cartões continuam. O rodapé traz o crédito do ARASAAC.
-
----
-
-## 8. Onde ficam os arquivos
-
-Tudo fica na pasta `pranchas`, dentro do projeto:
-
-```
-pranchas\imagens\       imagens baixadas (usadas por todas as pranchas)
-pranchas\nucleo.json    vocabulário básico
-pranchas\palavras.json  memória das edições
-pranchas\<tema>\        prancha.json (dados) e prancha.html (impressão)
-```
-
-Para levar as pranchas para outro PC, **copie essa pasta**.
-
----
-
-## 9. Problemas comuns
-
-| Problema | O que fazer |
-|---|---|
-| Aparece "Falta o modelo ... no Ollama" | Rode no terminal o comando `ollama pull` mostrado na mensagem (passo 3) |
-| Não gera prancha nova | Confirme que o **Ollama está aberto** e que há internet |
-| Não sai som | Veja se o volume está ligado e se o computador tem voz instalada (passo 7.6) |
-| A voz fala em inglês | Instale uma voz em português do Brasil e deixe-a como padrão (passo 7.6) |
-| Cartão com "?" | Clique nele para escolher outra imagem, ou remova |
-| O programa não abre | Rode a classe **`Main`**, e não a `App` (passo 6) |
-| O IntelliJ não acha o JavaFX | Clique em **Load Maven Changes** (passo 5) |
-
+1. Abra a pasta do projeto e entre em `pranchas` e depois na pasta do tema desejado. Por exemplo: `pranchas/praia`.
+2. Dê dois cliques no arquivo `prancha.html`. Ele será aberto no navegador (Chrome, Edge, etc.).
+3. Pressione `Ctrl + P` para abrir a janela de impressão.
+4. Escolha a impressora desejada ou selecione **Salvar como PDF** caso queira gerar um arquivo.
+5. Clique em **Imprimir**.
 ---
 
 ## 10. Créditos
