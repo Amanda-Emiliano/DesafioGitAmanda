@@ -46,7 +46,7 @@ Desenvolvimento de um sistema de Comunicação Aumentativa e Alternativa (CAA/AA
 Para executar o programa, siga os passos abaixo:
 
 1.  Certifique-se de ter o **IntelliJ** instalado em seu computador.
-2.  Utilize o seguinte código para usar o Sistema de AAC [Clique aqui!]
+2.  Utilize o seguinte código para usar o Sistema de AAC [Clique aqui!}
    (https://github.com/larijuno/Grupo_JAVA/blob/f0794928175d5a5c5d126b0c3e75e81cd538963e/AAC%20-%20final/src/main/java/org/example/App.java;)
 4.  Abra o arquivo no IntelliJ.
 5.  Pressione a tecla **Shift + F10** do seu teclado ou clique no ícone de "▶️" no IntelliJ, para iniciar o programa.
