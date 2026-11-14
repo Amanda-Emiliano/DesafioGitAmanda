@@ -1,20 +1,18 @@
-# Manual de Uso do Sistema de AAC
+# Manual de Uso do Sistema de AAC🧩
 
 **💡Como rodar em outro PC e como usar?**
 
 O programa monta **pranchas de comunicação alternativa (CAA)** com pictogramas do [ARASAAC](https://arasaac.org) a partir de um tema. Depois de montada, a prancha pode ser **editada**, **impressa** ou **usada na tela**, com o computador **falando** as palavras ao clicar nos cartões.
 
-## Índice
+## 📚Índice
 
 1. [O que instalar](#1-o-que-instalar)
 2. [Instalar o Ollama](#2-instalar-o-ollama)
 3. [Baixar os dois modelos de IA](#3-baixar-os-dois-modelos-de-ia)
 4. [Abrir o projeto no IntelliJ](#4-abrir-o-projeto-no-intellij)
-5. [Baixar as dependências](#5-baixar-as-dependências)
-6. [Rodar](#6-rodar)
-7. [Como usar](#7-como-usar)
-8. [Onde ficam os arquivos](#8-onde-ficam-os-arquivos)
-9. [Créditos](#10-créditos)
+5. [Rodar](#5-rodar)
+6. [Como usar](#6-como-usar)
+7. [Créditos](#7-créditos)
 
 ---
 
@@ -26,7 +24,7 @@ O programa monta **pranchas de comunicação alternativa (CAA)** com pictogramas
 | **IntelliJ IDEA** | Abrir e rodar o projeto  | [jetbrains.com/idea/download](https://www.jetbrains.com/idea/download) |
 | **Ollama** | IA que roda no seu computador | [ollama.com/download](https://ollama.com/download) |
 | **Internet** | Buscar os pictogramas no ARASAAC | — |
-| **Voz em português** *(recomendado)* | O computador falar as palavras em português | Veja o [passo 7.6](#76-ouvir-a-prancha-o-computador-fala) |
+| **Voz em português** *(recomendado)* | O computador falar as palavras em português | Veja o [passo 6.6](#66-ouvir-a-prancha) |
 
 ---
 
@@ -71,7 +69,7 @@ Os dois modelos têm que aparecer na lista!
 
 > **IMPORTANTE:** rode a classe `App`.
 
-## 6. Como usar
+## 📌6. Como usar
 
 O programa tem **dois modos**, que se alternam no botão do topo:
 
@@ -82,13 +80,13 @@ O programa tem **dois modos**, que se alternam no botão do topo:
 
 O botão mostra o modo atual e diz qual será o próximo: **"Modo: Editar (clique para usar)"** e **"Modo: Usar (clique para editar)"**.
 
-### 7.1 Gerar uma prancha
+### 📌6.1 Gerar uma prancha
 
 1. Digite o **tema** (ex.: praia, parquinho, supermercado) e clique em **Gerar prancha** (ou aperte Enter).
 2. Na primeira vez, leva de 10 a 20 segundos. Os cartões vão aparecendo um por um, e o texto de status mostra o andamento.
 3. Se o tema já tiver sido salvo, o programa abre a versão salva (com as suas edições) na hora, **sem internet e sem IA**. Para criar uma nova do zero, clique em **Gerar de novo**.
 
-### 7.2 Entender os cartões
+### 🎨6.2 Entender os cartões
 
 As **cores das bordas**
 
@@ -102,7 +100,7 @@ As **cores das bordas**
 
 - No topo fica o **vocabulário básico** (cerca de 30 palavras, como EU, VOCÊ, QUERO, NÃO QUERO, MAIS, AJUDA, SIM, NÃO, ACABOU), que aparece em **todas** as pranchas.
 
-### 7.3 Editar a prancha (Modo: Editar)
+### 🖍️6.3 Editar a prancha (Modo: Editar)
 
 - **✕ no canto do cartão:** remove a palavra. Ela não volta quando você gerar esse tema de novo.
 - **Clique no cartão:** abre as opções para trocar a imagem. A escolha vale para essa palavra **em todas as pranchas**.
@@ -111,7 +109,7 @@ As **cores das bordas**
 
 Tudo é salvo automaticamente a cada mudança!
 
-### 7.4 Usar a prancha para se comunicar (Modo: Usar)
+### 💬6.4 Usar a prancha para se comunicar (Modo: Usar)
 
 1. Clique no botão do topo para entrar no **Modo: Usar**. As ferramentas de edição somem e aparece a **barra da frase**, uma faixa branca com borda verde.
 2. **Clique em um cartão:** o computador **fala a palavra** na hora, e ela entra na barra da frase como um cartãozinho.
@@ -128,11 +126,11 @@ Os botões da barra da frase:
 
 Ao voltar para o **Modo: Editar**, a frase é limpa automaticamente.
 
-### 7.5 Pranchas salvas
+### 💾6.5 Pranchas salvas
 
 Toda prancha é salva automaticamente e aparece em **Pranchas salvas**, à esquerda. Clique em um tema para abrir de novo. Abrir uma prancha salva leva menos de 1 segundo e não precisa de internet.
 
-### 7.6 Ouvir a prancha (o computador fala)
+### 🎧6.6 Ouvir a prancha
 
 A fala **não usa áudio gravado nem internet**. O programa pede ao sistema do computador para ler o texto em voz alta:
 
@@ -142,15 +140,16 @@ A fala **não usa áudio gravado nem internet**. O programa pede ao sistema do c
 | **Mac** | Comando `say`, com a voz "Luciana" (português do Brasil) |
 | **Linux** | Programa `espeak` em português do Brasil. Instale com `sudo apt install espeak` |
 
-### 7.7 Imprimir
+### 🖨️6.7 Imprimir
 
 1. Abra a pasta do projeto e entre em `pranchas` e depois na pasta do tema desejado. Por exemplo: `pranchas/praia`.
 2. Dê dois cliques no arquivo `prancha.html`. Ele será aberto no navegador (Chrome, Edge, etc.).
 3. Pressione `Ctrl + P` para abrir a janela de impressão.
 4. Escolha a impressora desejada ou selecione **Salvar como PDF** caso queira gerar um arquivo.
 5. Clique em **Imprimir**.
+
 ---
 
-## 10. Créditos
+## 📌7. Créditos
 
 Pictogramas: Sergio Palao. Origem: [ARASAAC](https://arasaac.org). Licença: CC BY-NC-SA. Propriedade: Governo de Aragão (Espanha).
