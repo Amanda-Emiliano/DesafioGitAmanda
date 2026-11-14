@@ -18,6 +18,8 @@ O programa monta **pranchas de comunicação alternativa (CAA)** com pictogramas
 3.  Para o Manual do Sistema de AAC [Clique aqui!](https://github.com/larijuno/Grupo_JAVA/blob/510fb47817e816e354acaee3a0b619bb8a031a9d/Manual/Manual%20de%20Uso%20do%20Sistema%20de%20AAC.md)
 ---
 
+Para acessar o passo a Passo de Instalação e Execução [Clique aqui!](https://github.com/larijuno/Grupo_JAVA/blob/637e5df01f3d0f382b038f140449ca1a5f2f81bf/Manual/Manual%20de%20Instala%C3%A7%C3%A3o%20do%20IntelliJ%20IDEA.md)
+
 ## 📌1. O que instalar
 
 | Item | Para quê | Onde baixar |
